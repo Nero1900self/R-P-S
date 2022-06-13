@@ -46,7 +46,7 @@ class ReflectPlayer(Player):
             return Player.play(self)
         return self.last_counterpart_move
 
-    def learn(self, last_counterpartt_move):
+    def learn(self, last_counterpart_move):
         """Save the movement made by the counterpart's movement in the last session
         Args:
             last_counterpart_move (string): counterpart's movement in the last session
